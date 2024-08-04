@@ -29,15 +29,15 @@
 ## Running the Exercises
 
 1. **Navigate to the Exercise Directory:**
-   Each exercise is located in its directory under `src/com/yourname/javapractice/exercises`.
+   Each exercise is located in its directory under `src\main\com\java\practice`.
 
 2. **Compile and Run the Exercise:**
    ```bash
-   javac src/com/yourname/javapractice/exercises/ExerciseName.java
-   java -cp src com.yourname.javapractice.exercises.ExerciseName
+   javac "your_directory\src\main\com\java\practice/ExerciseName.java"
+   java "your_directory\src\main\com\java\practiceExerciseName.java"
    ```
 
-   Replace `ExerciseName` with the name of the exercise class you want to run.
+   Replace `ExerciseName` with the name of the class you want to run.
 
 ## Contributing
 
