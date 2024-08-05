@@ -14,6 +14,8 @@
 
 ## Getting Started
 
+**Java Practice** includes 8 exercises related to FILE I/O. If you want to know more about details, please read **File IO.ppt**.
+
 ### Prerequisites
 
 - Java Development Kit (JDK) 8 or higher

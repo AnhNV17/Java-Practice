@@ -40,7 +40,7 @@ public class FileRandomGeneratorImprovement {
 		
 		try (BufferedWriter bufferWriter = new BufferedWriter(new FileWriter(fileName))) {
 			long byteWritten = 0;
-			while (byteWritten <= fileSizeInMB) {
+			while (byteWritten <= fileSizeInBytes) {
 				String randomContentLine = generateRandomContentLine();
 				bufferWriter.write(randomContentLine);
 				bufferWriter.newLine();

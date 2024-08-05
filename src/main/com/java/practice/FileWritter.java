@@ -6,7 +6,7 @@ import java.io.IOException;
 public class FileWritter {
 	public static void main(String[] args) {
 		String content = "This is the content to be written on a file.";
-		String fileName = "outputFile.txt";
+		String fileName = "src/utilities/outputFile.txt";
 		try (FileWriter writer = new FileWriter(fileName)) {
             writer.write(content);
             System.out.println("Successfully written on the file: " + fileName);

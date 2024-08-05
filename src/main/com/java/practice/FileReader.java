@@ -6,7 +6,7 @@ import java.util.Scanner;
 
 public class FileReader {
 	public static void main(String[] args) {
-		String filePath = "src/test/com/java/practice/Test_FileReading.txt";
+		String filePath = "src/utilities/Test_FileReading.txt";
 		File myObj = new File(filePath);
 	    Scanner myReader;
 		try {

@@ -44,10 +44,10 @@ public class WordSearching {
                     System.out.printf("File: %s, Line: %d, Content: %s%n", file.getName(), lineNumber, lineContent);
                     isFound = true;
                  }
-                 if (!isFound) {
-                     System.out.printf("The word to search '%s' not found in file: %s%n", wordToSearch, file.getName());
-                 }
             }
+			 if (!isFound) {
+                 System.out.printf("The word to search '%s' not found in file: %s%n", wordToSearch, file.getName());
+             }
 		} catch (IOException e) {
 			System.out.println("There is an exception happened when searching " + wordToSearch 
 					+ " in the file " + file.getName() + ": " + e.getMessage());
