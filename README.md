@@ -14,7 +14,7 @@
 
 ## Getting Started
 
-**Java Practice** includes 8 exercises related to FILE I/O. If you want to know more about details, please read **File IO.ppt**.
+**Java Practice** includes 8 exercises related to FILE I/O. For more details, please refer to JAVA_PRACTICE.ppt. This file explains points to consider for each exercise. The next exercise will address improvements for gaps identified in the previous one.
 
 ### Prerequisites
 
